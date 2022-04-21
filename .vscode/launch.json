@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run tests",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/zig-out/bin/easings-zig-test.exe",
+            "args": [
+                "zig"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "preLaunchTask": "install tests",
+            "logging": {
+                "exceptions": true,
+                "moduleLoad": false,
+                "programOutput": true,
+                "engineLogging": false,
+                "trace": false,
+                "traceResponse": false,
+            }
+        }
+    ]
+}

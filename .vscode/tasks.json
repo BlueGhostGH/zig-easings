@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "install tests",
+            "type": "shell",
+            "command": "c:\\coding\\zig\\zig\\zig.exe build install -Dtests",
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+    ]
+}
